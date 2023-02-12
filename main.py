@@ -11,7 +11,7 @@ from flask_gravatar import Gravatar
 from functools import wraps
 import os
 from dotenv import load_dotenv
-
+#zmena
 load_dotenv("C:/Work/Python/.env")
 
 app = Flask(__name__)
