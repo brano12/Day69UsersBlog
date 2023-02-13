@@ -12,7 +12,7 @@ from functools import wraps
 import os
 from dotenv import load_dotenv
 #zmena
-load_dotenv("C:/Work/Python/.env")
+load_dotenv()
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv("APP_SEC_KEY")
